@@ -1355,6 +1355,18 @@
         margin-bottom: 200px;
     }
 }
+@media (max-width:1700px) {
+    #choice{
+        .arr1{
+            margin-bottom: 550px;
+        }
+        #artie-work2{
+            top: 670px;
+            
+        }
+    }
+
+}
 
 
 @media ($mediaMdDown) {
@@ -1381,7 +1393,8 @@
             width: 100%;
             min-width: unset;
             flex-direction: column;
-            margin: 5% auto;
+            // margin: 5% auto;
+            margin: 10% auto 5% auto;
             padding: 0 10%;
 
 
@@ -1413,7 +1426,7 @@
         }
         #artie-work2{
             width: 70%;
-
+            margin-top: 10%;
             .indexHotPic2 {
                 width: 100%;
             }
@@ -1421,7 +1434,7 @@
         #cho-3 {
             width: calc(86% * 0.8);
             padding: 0;
-
+            margin-top: 15%;
             .indexHotCon3 {
                 display: flex;
                 flex-direction: column;
